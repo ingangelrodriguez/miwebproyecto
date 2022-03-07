@@ -1,1 +1,86 @@
-html{margin:1vw 6vw}header{border-color:#24204eb4;border-style:inset;border-width:1vw;display:inline-flex;align-items:center;background-image:url(imagenes/banner_blue.jpg);border-radius:35px 95px}h1{font-family:'Fredoka',sans-serif;color:#161816d0;text-align:center;font-size:6vw;align-content:center;font-weight:700}div{border-color:#24204eb4;border-style:inset;border-width:1vw;display:inline-flex;align-items:center;background-image:url(imagenes/banner_blue.jpg);border-radius:15px 15px;align-content:center;display:table;vertical-align:middle}.foto1{border-radius:35px 95px;border-color:#24204eb4;border-style:inset;border-width:0.5vw;float:right;margin-top:2.0vw;margin-bottom:1.0vw;margin-right:1.0vw;max-width:18vw;max-height:18vw}h2{font-family:'Fredoka',sans-serif;font-size:4vw;text-align:center;align-content:center;font-weight:500;color:#161816d0}
+html
+{
+    margin: 1vw 6vw; 
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Fredoka', sans-serif;
+    color: #161816d0;
+    align-content: center; 
+    text-align: justify;
+}
+
+
+header{
+    border-color: #24204eb4;
+    border-style: inset;    
+    border-width: 1vw;    
+    display:inline-flex;
+    align-items: center;
+    background-image:url(imagenes/banner_blue.jpg);
+    border-radius: 35px 95px;
+    margin-bottom: 2vw;
+}
+
+h1{
+    /*font-family: 'Sansita Swashed', cursive;*/
+    /*font-family: 'Syne Mono', monospace;*/
+    font-family: 'Fredoka', sans-serif;
+    /*font-family: 'Fira Sans', sans-serif;*/
+    /*color: #161816d0;*/
+    text-align: center;
+    font-size: 6vw;    
+    align-content: center; 
+    font-weight: 700;       
+}
+
+div{
+    border-color: #24204eb4;
+    border-style: inset;    
+    border-width: 1vw;    
+    display: inline-flex;
+    align-items: center;
+    background-image: url(imagenes/banner_blue.jpg);
+    border-radius: 15px 15px;
+    /*align-content: center;*/
+    display: table;
+    vertical-align: middle;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto1{
+    border-radius: 35px 95px;
+    border-color: #24204eb4;
+    border-style: inset;
+    border-width: 0.5vw;  
+    float: right;   
+    margin-top: 2.0vw;
+    margin-bottom: 1.0vw;
+    margin-right: 1.0vw;
+    max-width: 18vw;
+    max-height: 18vw;
+}
+h2{
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 500;    
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 1vw;
+    font-size: 2vw;    
+    color: #161816d0;
+    font-weight: 550;
+}
+
+.inline{
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    margin: auto;
+}
+

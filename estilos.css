@@ -3,6 +3,13 @@ html
     margin: 1vw 6vw; 
 }
 
+body{
+    background-color: lightblue;
+    font-family: 'Fredoka', sans-serif;
+    color: #161816d0;
+    align-content: center; 
+    text-align: justify;
+}
 
 
 header{
@@ -13,6 +20,7 @@ header{
     align-items: center;
     background-image:url(imagenes/banner_blue.jpg);
     border-radius: 35px 95px;
+    margin-bottom: 2vw;
 }
 
 h1{
@@ -20,7 +28,7 @@ h1{
     /*font-family: 'Syne Mono', monospace;*/
     font-family: 'Fredoka', sans-serif;
     /*font-family: 'Fira Sans', sans-serif;*/
-    color: #161816d0;
+    /*color: #161816d0;*/
     text-align: center;
     font-size: 6vw;    
     align-content: center; 
@@ -35,10 +43,12 @@ div{
     align-items: center;
     background-image: url(imagenes/banner_blue.jpg);
     border-radius: 15px 15px;
-    align-content: center;
+    /*align-content: center;*/
     display: table;
     vertical-align: middle;
-            
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .foto1{
@@ -54,12 +64,21 @@ div{
     max-height: 18vw;
 }
 h2{
-    font-family: 'Fredoka', sans-serif;
     font-size: 4vw;
     text-align: center;
-    align-content: center; 
     font-weight: 500;    
-    color: #161816d0;
 }
 
+p{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 1vw;
+    font-size: 2vw;    
+    color: #161816d0;
+    font-weight: 550;
+}
+
+.inline{
+    max-width: max-content;
+    margin: auto;
+}
 
